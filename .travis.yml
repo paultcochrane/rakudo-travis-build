@@ -3,5 +3,8 @@ language: perl
 perl:
     - "5.10"
 
-script:
+install:
     - bash build-rakudo.sh
+
+script:
+    - true
